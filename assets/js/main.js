@@ -7,16 +7,17 @@ var fizzBuzz = []
 
 for (var i = 1; i < 101; i++) {
     if ((i / 3 % 1) == 0) {
-        fizz.push(i)
+        console.log(i);
     } else if ((i / 5 % 1) == 0) {
-        buzz.push(i)
+        console.log(i);
     } else if ((i / 5 % 1) && (i / 3 % 1) == 0){
-        fizzBuzz.push(i)
+        console.log(i);
+
     }
 }
-console.log(fizz);
+/* console.log(fizz);
 console.log(buzz);
-console.log(fizzBuzz);
+console.log(fizzBuzz); */
 
 //ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
 
